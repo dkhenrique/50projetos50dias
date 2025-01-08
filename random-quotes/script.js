@@ -5,7 +5,7 @@ const button = document.getElementById('button');
 function getQuote() {
   fetch('https://api.api-ninjas.com/v1/quotes', {
     headers: {
-      'X-Api-Key': 'HocZot4DGh6U3Kx1zCNE3w==3yrATQuswKoeVAvg' // Your API key here
+      'X-Api-Key': 'Your API Key HERE' 
     }
   })
     .then(response => response.json())
