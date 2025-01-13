@@ -10,4 +10,5 @@
 | 05  | [Random Quote generator](https://github.com/dkhenrique/50projetos50dias/tree/main/Random-Password-generator.git)                               | [Live Demo]()                |
 | 06  | [Pokemon Card](https://github.com/dkhenrique/50projetos50dias/tree/main/pokemon-card)                               | [Live Demo](https://pokecardis.netlify.app/)                |
 | 07  | [Social Links Profile](https://github.com/dkhenrique/50projetos50dias/tree/main/social-links-profile)                               | [Live Demo](https://social-link-profiless.netlify.app/)                |
+| 08  | [Parallax](https://github.com/dkhenrique/50projetos50dias/tree/main/parallax)                               | [Live Demo]()                |
 
