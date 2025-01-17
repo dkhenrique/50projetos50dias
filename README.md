@@ -12,4 +12,4 @@
 | 07  | [Social Links Profile](https://github.com/dkhenrique/50projetos50dias/tree/main/social-links-profile)                               | [Live Demo](https://social-link-profiless.netlify.app/)                |
 | 08  | [Parallax](https://github.com/dkhenrique/50projetos50dias/tree/main/parallax)                               | [Live Demo](https://euphonious-pastelito-e79482.netlify.app/)                |
 | 09  | [Double Vertical Slider](https://github.com/dkhenrique/50projetos50dias/tree/main/double-vertical-sliders)                               | [Live Demo](https://fantastic-strudel-a7194b.netlify.app/)                |
-| 10  | [Card content placeholder](https://github.com/dkhenrique/50projetos50dias/tree/main/content-placeholder)                               | [Live Demo]()                |
+| 10  | [Card content placeholder](https://github.com/dkhenrique/50projetos50dias/tree/main/content-placeholder)                               | [Live Demo](https://cute-beijinho-bc2ae5.netlify.app/)                |
