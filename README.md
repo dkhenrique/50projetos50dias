@@ -13,3 +13,4 @@
 | 08  | [Parallax](https://github.com/dkhenrique/50projetos50dias/tree/main/parallax)                               | [Live Demo](https://euphonious-pastelito-e79482.netlify.app/)                |
 | 09  | [Double Vertical Slider](https://github.com/dkhenrique/50projetos50dias/tree/main/double-vertical-sliders)                               | [Live Demo](https://fantastic-strudel-a7194b.netlify.app/)                |
 | 10  | [Card content placeholder](https://github.com/dkhenrique/50projetos50dias/tree/main/content-placeholder)                               | [Live Demo](https://cute-beijinho-bc2ae5.netlify.app/)                |
+| 11  | [Tetimonial Switcher](https://github.com/dkhenrique/50projetos50dias/tree/main/testimonial-switcher)                               | [Live Demo](https://wondrous-daffodil-7dba6d.netlify.app/)                |
