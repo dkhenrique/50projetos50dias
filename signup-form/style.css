@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #6366f1;
+}
+
+.btn-default {
+  background-color: #6366f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  border: none;
+  padding: .5rem .75rem;
+  border-radius: .5rem;
+  font-size: .9375rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: background-color .3s ease;
+}
+
+.btn-default:hover {
+  background-color: #818cf8;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  background-color: #f6f8ff;
+  padding: 1.25rem;
+  border-radius: .5rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.form__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__title {
+  font-weight: 500;
+  position: relative;
+}
+
+.form__title::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: #6366f1;
+  left: 0;
+  bottom: 0px
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+
+.input__container {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-label {
+  font-size: .75rem;
+  color: #404044;
+  font-weight: 400;
+}
+
+.input__field {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: .5rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.input__field i {
+  display: flex;
+  align-items: center;
+  width: 1.875rem;
+  height: 1.25rem;
+  color: #404044;
+}
+
+.form-control {
+  padding: .625rem;
+  width: 100%;
+  border: none;
+  border-radius: .5rem;
+}
+
+.input__field .password-icon:hover {
+  cursor: pointer;
+  color: #676770
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.form-control[type="radio"] {
+  accent-color: #6366f1;
+}
+
+.input__box .input__field:focus-within {
+  outline: 2px solid #6366f1;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 62.5rem white inset !important;
+  color: #000;
+}
+
+.radio__container {
+  grid-column: span 2;
+}
+
+#gender__inputs {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.radio__box {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+
+@media screen and (max-width: 500px) {
+  .form__container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 32px;
+  }
+
+  .input__container {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+}
+
+
+

@@ -1,100 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script
+      src="https://kit.fontawesome.com/e3ef1a73f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <title>Signup form</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/e3ef1a73f6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>Signup form</title>
-</head>
+  <body>
+    <main class="form__container">
+      <div class="form__header">
+        <h1 class="form__title">Criar conta</h1>
+        <button class="btn-default">
+          <i class="fa-solid fa-right-to-bracket"></i>
+        </button>
+      </div>
 
-<body>
-  <main class="form__container">
-    <div class="form__header">
-      <h1 class="form__title">Criar conta</h1>
-      <button class="btn-default">
-        <i class="fa-solid fa-right-to-bracket"></i>
-      </button>
-    </div>
-
-    <form>
-      <div class="input__container">
-        <div class="input__box">
-          <label for="name" class="form-label">
-            First name
-          </label>
-          <div class="input__field">
-            <input type="text" name="name" id="name" class="form-crontrol" placeholder="First name">
-            <i class="fa-regular fa-user"></i>
+      <form class="form">
+        <div class="input__container">
+          <div class="input__box">
+            <label
+              for="name"
+              class="form-label"
+            >
+              First name
+            </label>
+            <div class="input__field">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="First name"
+              />
+              <i class="fa-regular fa-user"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="input__box">
-          <label for="last_name" class="form-label">
-            Last name
-          </label>
-          <div class="input__field">
-            <input type="text" name="last_name" id="last_name" class="form-crontrol" placeholder="Last name">
-            <i class="fa-regular fa-user"></i>
+          <div class="input__box">
+            <label
+              for="last_name"
+              class="form-label"
+            >
+              Last name
+            </label>
+            <div class="input__field">
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                class="form-control"
+                placeholder="Last name"
+              />
+              <i class="fa-regular fa-user"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="input__box">
-          <label for="birthdate" class="form-label">
-            Birthdate
-          </label>
-          <div class="input__field">
-            <input type="date" name="birthdate" id="birthdate" class="form-crontrol">
+          <div class="input__box">
+            <label
+              for="birthdate"
+              class="form-label"
+            >
+              Birthdate
+            </label>
+            <div class="input__field">
+              <input
+                type="date"
+                name="birthdate"
+                id="birthdate"
+                class="form-control"
+              />
+            </div>
           </div>
-        </div>
 
-        <div class="input__box">
-          <label for="email" class="form-label">
-            Email
-          </label>
-          <div class="input__field">
-            <input type="email" name="email" id="email" class="form-crontrol" placeholder="exemple@email.com">
-            <i class="fa-regular fa-envelope"></i>
+          <div class="input__box">
+            <label
+              for="email"
+              class="form-label"
+            >
+              Email
+            </label>
+            <div class="input__field">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="exemple@email.com"
+              />
+              <i class="fa-regular fa-envelope"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="input__box">
-          <label for="password" class="form-label">
-            Password
-          </label>
-          <div class="input__field">
-            <input type="password" name="password" id="password" class="form-crontrol" placeholder="********">
-            <i class="fa-regular fa-eye-slash password-icon"></i>
+          <div class="input__box">
+            <label
+              for="password"
+              class="form-label"
+            >
+              Password
+            </label>
+            <div class="input__field">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form-control"
+                placeholder="********"
+              />
+              <i class="fa-regular fa-eye-slash password-icon"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="input__box">
-          <label for="confirm-password" class="form-label">
-            Confirm password
-          </label>
-          <div class="input__field">
-            <input type="password" name="confirm-password" id="confirm-password" class="form-crontrol"
-              placeholder="********">
-            <i class="fa-regular fa-eye-slash password-icon"></i>
+          <div class="input__box">
+            <label
+              for="confirm-password"
+              class="form-label"
+            >
+              Confirm password
+            </label>
+            <div class="input__field">
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                class="form-control"
+                placeholder="********"
+              />
+              <i class="fa-regular fa-eye-slash password-icon"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="radio__container">
-          <label class="form-label">
-            Gender
-          </label>
+          <div class="radio__container">
+            <label class="form-label"> Gender </label>
 
-          <div id="gender__inputs">
-            <div class="radio__box">
-              <input type="radio" name="gender" id="female" class="form-crontrol" value="female">
-              <label for="female" class="form-label">Female</label>
+            <div id="gender__inputs">
+              <div class="radio__box">
+                <input
+                  type="radio"
+                  name="gender"
+                  id="female"
+                  class="form-control"
+                  value="female"
+                />
+                <label
+                  for="female"
+                  class="form-label"
+                  >Female
+                </label>
+              </div>
+
+              <div class="radio__box">
+                <input
+                  type="radio"
+                  name="gender"
+                  id="male"
+                  class="form-control"
+                  value="male"
+                />
+                <label
+                  for="male"
+                  class="form-label"
+                  >Male
+                </label>
+              </div>
+
+              <div class="radio__box">
+                <input
+                  type="radio"
+                  name="gender"
+                  id="other"
+                  class="form-control"
+                  value="other"
+                />
+                <label
+                  for="other"
+                  class="form-label"
+                  >Other
+                </label>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </form>
-  </main>
-</body>
-
+        <button
+          type="submit"
+          class="btn-default"
+        >
+          <i class="fa-solid fa-check"></i>
+          Sign up
+        </button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
