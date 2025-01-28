@@ -68,7 +68,7 @@ body {
   bottom: 0px
 }
 
-.form {
+#form {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -146,6 +146,38 @@ input:-webkit-autofill {
   align-items: center;
   gap: .25rem;
 }
+
+.error {
+  color: #dc2626;
+  font-size: .75rem;
+  margin-top: .25rem;
+  max-width: 12.5rem;
+}
+
+.input__box.invalid .form-label {
+  color: #dc2626;
+}
+
+.input__box.invalid .input__field {
+  border: 1px solid #dc2626;
+}
+
+.input__box.valid .form-label {
+  color: #22c55e;
+}
+
+.input__box.valid .input__field {
+  border: 1px solid #22c55e;
+}
+
+.radio__container.invalid .form-label:first-child {
+  color: #dc2626;
+}
+
+.radio__container.valid .form-label:first-child {
+  color: #22c55e;
+}
+
 
 @media screen and (max-width: 500px) {
   .form__container {
